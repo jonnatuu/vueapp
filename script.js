@@ -6,24 +6,6 @@ var app = new Vue({
         id: '',
         img: ''
     },
-
- /*   methods: {
-        addToList: function () {
-            this.list.push({ name: this.newItem, completed: false})
-        },
-        getAnswer: function () {
-            axios.get('https://tie.digitraffic.fi/api/v1/data/camera-data/').then(function (response) {
-                app.dataUpdatedTime = response.data.dataUpdatedTime;
-                console.log(dataUpdatedTime);
-            })
-            .catch(function (error) {
-                app.dataUpdatedTime = 'Error! Could not reach the API.' + error
-            })
-        }
-    }
-
-}) */
-
 methods: {
     alavus: function () {
       axios.get('https://tie.digitraffic.fi/api/v1/data/camera-data/C10528')
