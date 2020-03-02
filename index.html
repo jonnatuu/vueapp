@@ -6,11 +6,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <div id="intro">
-    <h1>VT18 ALAVUS KELIKAMERAT</h1>
+        <h1>VT18 ALAVUS KELIKAMERAT</h1>
     </div>
-
     <div id="app">
         <div class="navi">
             <button class="button" type="button" name="button" @click="alavus()"> Vt18 Alavus, Ähtäriin </button>
@@ -20,19 +18,17 @@
             <button class="button" type="button" name="button" @click="tienpinta()"> Vt18 Alavus, tienpinta </button>
         </div>
         <div class="kuvat">
-        <h4>Kuva otettu: {{ nimi }}</h4>
-        <img :src="img" alt="" />
+            <h4>Kuva otettu: {{ nimi }}</h4>
+            <img :src="img" alt="" />
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/axios@0.12.0/dist/axios.min.js"></script>
-
    <footer>
         <div>
             Jonna Orava 2020
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios@0.12.0/dist/axios.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="script.js"></script>
-
 </body>
 </html>
